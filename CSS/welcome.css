@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to right, #ffffff 30%, #ec6a14 0%);
+  margin: 5px;
+  
+  padding: 0;
+}
+
+html:before, html:after, body:before, body:after {
+  content: "";
+  position: fixed;
+  border: 5px solid red;
+}
+#welcome {
+  text-align: center;
+  z-index: 10;
+  color: white;
+}
+#circle{
+  max-width: 23%;
+  position: absolute;
+  left: 23.5%;
+  top: 25%;
+}
